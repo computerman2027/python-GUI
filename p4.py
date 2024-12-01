@@ -40,7 +40,7 @@ btn0.grid(row=3,column=1,sticky=tk.W+tk.E)
 
 buttonframe.pack(fill='x')
 
-anotherbtn=tk.Button(root,text='test')
-anotherbtn.place(x=200,y=200,height=100,width=100)
+# anotherbtn=tk.Button(root,text='test')
+# anotherbtn.place(x=200,y=200,height=100,width=100)
 
 root.mainloop()
