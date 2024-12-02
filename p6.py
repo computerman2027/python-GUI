@@ -27,6 +27,6 @@ class MyGUI:
         if self.check_state.get() ==0:
             print(self.textbox.get('1.0',tk.END))
         else:
-            pass
+            messagebox.showinfo(title="Message",message=self.textbox.get('1.0',tk.END))
 
 MyGUI()
